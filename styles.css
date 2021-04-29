@@ -128,8 +128,11 @@ p{
   .container  {
     flex-direction: column;
     width: 327.5px;
-    height: 1320px;
+    height: 1320px;  /*1320*/
     overflow-y: auto;
+  }
+  .btn {
+    bottom: -27.5px;
   }
 
 }
