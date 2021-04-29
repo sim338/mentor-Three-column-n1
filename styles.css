@@ -71,8 +71,8 @@ p{
 
 .btn{
   width: 145px;
-  position: absolute;
-  bottom: 50px;
+  position: relative;
+  bottom: -87.5px;
   border-radius: 25px;
   background-color: var(--very-light-grey);
   border: none;
