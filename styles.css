@@ -59,7 +59,7 @@ h1{
   background-color: var(--dark-cyan);
 }
 
-.luxury-section {
+.luxury-section{
   background-color: var(--very-dark-cyan);
 }
 
@@ -86,10 +86,7 @@ p{
 }
 
 .sedan-section .btn:hover{
-  border: 2px solid #fff;
   background-color: var(--bright-orange);
-  color: #fff;
-  cursor: pointer;
 }
 
 .suv-section .btn{
@@ -97,10 +94,7 @@ p{
 }
 
 .suv-section .btn:hover{
-  border: 2px solid #fff;
   background-color: var(--dark-cyan);
-  color: #fff;
-  cursor: pointer;
 }
 
 .luxury-section .btn{
@@ -108,10 +102,13 @@ p{
 }
 
 .luxury-section .btn:hover{
-  border: 2px solid #fff;
   background-color: var(--very-dark-cyan);
-  color: #fff;
-  cursor: pointer;
+}
+
+.btn:hover{
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
 }
 
 .attribution {
@@ -136,3 +133,4 @@ p{
   }
 
 }
+/*updated*/
