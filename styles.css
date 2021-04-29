@@ -1,0 +1,138 @@
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);  /*paragraphs*/
+  --very-light-grey: hsl(0, 0%, 95%);    /*background, headings, buttons */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--very-light-grey);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 931.2px;
+  margin: auto;
+  height: 55%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.box{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: left;
+  padding-left: 45px;
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.logo{
+  padding: 45px 0 36px 0;
+  width: 65px;
+}
+
+h1{
+  text-transform: uppercase;
+  color: var(--very-light-grey);
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2.7em;
+}
+
+.sedan-section {
+  background-color: var(--bright-orange);
+}
+
+.suv-section {
+  background-color: var(--dark-cyan);
+}
+
+.luxury-section {
+  background-color: var(--very-dark-cyan);
+}
+
+p{
+  line-height: 25px;
+  color: var(--transparent-white);
+  padding: 23px 50px 0px 0px;
+}
+
+.btn{
+  width: 145px;
+  position: absolute;
+  bottom: 50px;
+  border-radius: 25px;
+  background-color: var(--very-light-grey);
+  border: none;
+  height: 47.5px;
+  font-size: 1em;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.sedan-section .btn{
+  color: var(--bright-orange);
+}
+
+.sedan-section .btn:hover{
+  border: 2px solid #fff;
+  background-color: var(--bright-orange);
+  color: #fff;
+  cursor: pointer;
+}
+
+.suv-section .btn{
+  color: var(--dark-cyan);
+}
+
+.suv-section .btn:hover{
+  border: 2px solid #fff;
+  background-color: var(--dark-cyan);
+  color: #fff;
+  cursor: pointer;
+}
+
+.luxury-section .btn{
+  color: var(--very-dark-cyan);
+}
+
+.luxury-section .btn:hover{
+  border: 2px solid #fff;
+  background-color: var(--very-dark-cyan);
+  color: #fff;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 975px) {
+  body {
+    height: auto;
+    margin: 15px 0 15px 0;
+  }
+  .container  {
+    flex-direction: column;
+    width: 327.5px;
+    height: 1320px;
+    overflow-y: auto;
+  }
+
+}
