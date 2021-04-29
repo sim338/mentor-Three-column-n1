@@ -23,7 +23,7 @@ body {
   flex-direction: row;
   width: 931.2px;
   margin: auto;
-  height: 55%;
+  height: 500px;
   overflow: hidden;
   border-radius: 10px;
 }
@@ -133,4 +133,3 @@ p{
   }
 
 }
-/*updated*/
